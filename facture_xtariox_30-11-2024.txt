@@ -1,0 +1,8 @@
+Facture                                 30-11-2024
+Mr /Mlle/Madame : xtariox
+Voiture :Hyundai i10
+Type : Essence
+Date début : 2024-12-12
+Date fin : 2025-01-01
+Durée de location en (Jours) : 20
+Prix total à payer : 5600 DH

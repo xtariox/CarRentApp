@@ -1,0 +1,24 @@
+/server
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── Server.java                // Main server class that starts the server socket
+│   │   │   ├── ClientHandler.java          // Handles client connections and requests
+│   │   │   ├── PropertiesLoader.java       // Loads database properties from file and provides connection method
+│   │   │   └── main.Car.java                    // Model class representing car data (optional)
+│   │   └── resources
+│   │       └── database.properties         // Properties file containing database connection details
+└── pom.xml (or build.gradle)               // Build configuration file if using Maven or Gradle
+
+
+/client
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── LoginWindow.java            // GUI for user login
+│   │   │   ├── AdminPanel.java             // GUI for admin panel with tabbed interface for cars and clients
+│   │   │   ├── ClientPanel.java            // GUI for regular user panel (if needed)
+│   │   │   ├── ServerConnection.java        // Manages socket connection to the server
+│   │   │   └── PropertiesLoader.java       // Optional: Loads client-specific properties (if needed)
+│   │   └── resources                        // Optional: Any resource files for the client application
+└── pom.xml (or build.gradle)               // Build configuration file if using Maven or Gradle
